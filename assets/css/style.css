@@ -251,6 +251,10 @@
 p {
   margin: 0;
   padding: 10px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Proxima N W01 Reg'; 
+    font-size: 16px;
 }
 
 .options {
@@ -271,6 +275,9 @@ p {
   float: right;
   width: 60%;
   margin-top: 50px;
+    float: right;
+    width: 60%;
+    margin-top: 0px;
 }
 
 /* About Us Section - Home Page - START */
@@ -294,3 +301,9 @@ p {
 }
 
 /* About Us Section - Home Page - END */
+
+.header3 {
+    font-family: 'Proxima N W01 Reg';
+    font-size: 20px;
+    font-weight: bold;
+}
