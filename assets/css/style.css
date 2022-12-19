@@ -1,3 +1,22 @@
+/* Fonts START */
+@font-face {
+    font-family: "Proxima N W01 Reg";
+    src: url("../fonts/55c4f556836775174bfac94178a3fe82.eot");
+    /* IE9*/
+    src: url("../fonts/55c4f556836775174bfac94178a3fe82.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../fonts/55c4f556836775174bfac94178a3fe82.woff2") format("woff2"),
+        /* chrome、firefox */
+        url("../fonts/55c4f556836775174bfac94178a3fe82.woff") format("woff"),
+        /* chrome、firefox */
+        url("../fonts/55c4f556836775174bfac94178a3fe82.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("../fonts/55c4f556836775174bfac94178a3fe82.svg#Proxima N W01 Reg") format("svg");
+    /* iOS 4.1- */
+}
+
+/* Fonts END */
+
 /* Common START */
 .container {
     padding-left: 150px;
@@ -17,7 +36,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    
+
 }
 
 .dropdown-menu {
@@ -55,9 +74,62 @@
     .navbar-light .navbar-nav .nav-item {
         border-right: none;
     }
-    
+
     .dropdown-item {
         border-bottom: none;
     }
 }
+
 /* Navbar END */
+
+.options {
+    background-color: black;
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+.options {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.img1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.description {
+    float: right;
+    width: 60%;
+    margin-top: 50px;
+}
+
+/* About Us Section - Home Page - START */
+.home-about-us__p {
+    font-size: 18px;
+    color: #2A2A2A;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+}
+
+.home-about-us a {
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.home-projects .card-title {
+    font-size: 17px;
+    color: #2A2A2A;
+    font-weight: 400;
+    font-family: "Proxima N W01 Reg";
+}
+
+/* About Us Section - Home Page - END */
