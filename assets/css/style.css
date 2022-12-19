@@ -307,3 +307,37 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* FOOTER START */
+.footer_headings {
+  color: #2a2a2a; font-size: 15px; font-family: 'Proxima N W01 Reg'; font-weight: bold;
+}
+.footer_text {
+  color: #2a2a2a; font-size: 15px; font-family: 'Proxima N W01 Reg';
+}
+
+.footer__company_details_heading {
+  color: #2a2a2a; font-size: 12px; font-family: 'Proxima N W01 Reg'; font-weight: bold;
+}
+.footer__company_details_text {
+  color: #2a2a2a; font-size: 12px; font-family: 'Proxima N W01 Reg';
+}
+
+.footer__socials {
+  display: flex; justify-content: center; align-items: center;
+}
+
+.footer__socials img {
+  margin-left: 10px;
+}
+
+.footer__disclaimer {
+  color: #003448;
+  font-size: 9px;
+  font-family: 'Open Sans';
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* FOOTER END */
