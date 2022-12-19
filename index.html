@@ -42,6 +42,12 @@
         }
     </style>
     <!-- Proxima Fonts END -->
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -94,7 +100,66 @@
         </nav>
     </div>
 
-    <div class="container home-about-us">
+    <!-- Custom Owl Carousel START -->
+    <div class="owl-carousel owl-theme mt-3">
+        <div class="slide slide-1">
+            <div class="slide-content">
+
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide-content">
+
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide-content">
+
+            </div>
+        </div>
+
+        <div class="slide slide-4">
+            <div class="slide-content">
+
+            </div>
+        </div>
+
+        <div class="slide slide-5">
+            <div class="slide-content">
+
+            </div>
+        </div>
+
+        <div class="slide slide-6">
+            <div class="slide-content">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Custom Javascript -->
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        smartSpeed: 1500,
+        autoplayHoverPause: true
+      });
+    });
+  </script>
+
+  <!-- Custom Owl Carousel END -->
+
+    <div class="container home-about-us mt-5">
 
         <h1 class="header" class="mt-5"
             style="font-family: oswald-extralight, oswald, sans-serif; font-weight: 200; color: #E0266A;">
