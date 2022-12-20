@@ -41,7 +41,7 @@
                         <a class="nav-link" aria-current="page" href="/">HOME</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="whoweare.html" id="navbarScrollingDropdown" role="button"
+                        <a class="nav-link dropdown-toggle active" href="/whoweare.php" id="navbarScrollingDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             WHO WE ARE
                         </a>
@@ -75,7 +75,7 @@
     </div>
 
     <div>
-        <h1 class="header"
+        <h1 id="#aboutus" class="header"
             style="font-family: oswald-extralight,oswald,sans-serif; color: #E0266A; margin-left: 100px; margin-right: 200px; margin-top: 50px;">
             Who we are
         </h1>
@@ -121,7 +121,7 @@
 
     <div>
 
-        <h1 class="header"
+        <h1 id="people" class="header"
             style="font-family: 'Proxima N W01 Reg'; font-size: 30px; color: #E0266A; margin-left: 100px; margin-right: 200px; margin-top: 50px;">
             People
         </h1>
@@ -188,11 +188,11 @@
 
     </div>
 
-    <div style="margin-top: 5px;">
+    <div id="clients" style="margin-top: 5px;">
         <img src="/assets/images/2943d5_94df616912a8412fb844bb8b968e35bf_mv2.png" alt="">
     </div>
 
-    <h1 class="header"
+    <h1 id="awards" class="header"
         style="font-family: 'Proxima N W01 Reg'; font-size: 30px; color: #E0266A; margin-left: 100px; margin-right: 200px; margin-top: 50px;">
         Awards & Recognition
     </h1>
