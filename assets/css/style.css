@@ -341,3 +341,8 @@ p {
   margin-right: auto;
 }
 /* FOOTER END */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
